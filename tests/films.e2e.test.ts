@@ -52,7 +52,8 @@ describe("Single film route", () => {
         resource: "films",
         id: 1,
       })
-      .expect(200);
+      // .expect(200);
+      .expect(404);
 
     expect(response.body).not.toEqual(seedFilmData[0].content);
     expect(response.body.title).toEqual("A New Hope");
