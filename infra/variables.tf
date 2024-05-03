@@ -1,6 +1,6 @@
 variable "project" {
   type    = string
-  default = "wg"
+  default = "ap"
 }
 
 variable "environment" {
